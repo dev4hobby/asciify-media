@@ -16,9 +16,9 @@ def image2ascii(filename, cols, scale, level):
   
     # 이미지 열어서 grayscale 형식으로 바꿈. 
     image = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)
-    if image:
+    try:
         size = [len(image[0]), len(image)]
-    else:
+    except:
         print('영상 정보 획득 실패')
         sys.exit(1)
 
