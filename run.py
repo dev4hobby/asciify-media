@@ -44,7 +44,7 @@ def main():
     elif ext in ['mp4', ]: # 원한다면 다른 확장자 추가 가능.
         _ = asciify.video2ascii(name, cols, scale, args.level)
     else:
-        print('Unexpected file type')
+        _ = asciify.cam2ascii(cols, scale, args.level)
 
 # main 시작
 if __name__ == '__main__':
