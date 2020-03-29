@@ -9,7 +9,7 @@
 - Python 3.6 or high
 - PIP packages
   - opencv-python==4.2.0.32
-  - numpy==1.18.1
+  - numpy==1.18.2
 
 ## How to run
 
