@@ -3,3 +3,4 @@ out.txt
 .vscode
 __pycache__
 *.pyc
+.DS_Store
