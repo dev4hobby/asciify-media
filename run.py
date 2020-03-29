@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(description=descStr)
     
     # 파싱할 것들
-    parser.add_argument('--file', dest='name', required=True)
+    parser.add_argument('--file', dest='name', required=False)
     parser.add_argument('--scale', dest='scale', required=False)
     parser.add_argument('--out', dest='out', required=False)
     parser.add_argument('--cols', dest='cols', required=False)
